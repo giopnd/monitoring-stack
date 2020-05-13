@@ -27,8 +27,8 @@ services:
     image: prom/pushgateway:latest
     ports:
       - "9091:9091"
-    depends_on:
-      - prometheus
+#     depends_on:
+#       - prometheus
 
 #   grafana:
 #     container_name: grafana
