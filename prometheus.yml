@@ -4,12 +4,12 @@ global:
   # scrape_timeout is set to the global default (10s).
   
 scrape_configs:
-- job_name: push gateway on aws lambda
+- job_name: push_gateway_on_aws_lambda
 
   honor_labels: true
   
   static_configs:
   - targets: ['localhost:9091']
-    labels:
-      my:   label
-      your: label
+#     labels:
+#       my:   label
+#       your: label
